@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carmelo Chapman • BlueSky Portfolio</title>
+  <link rel="icon" href="assets/icons8-star-96.png" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body data-theme="dark" class="page-home">
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Carmelo Chapman</div>
+      <nav class="nav-main">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="goals.html">Goals</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button">Light mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="eyebrow">BlueSky Tennessee Institute</p>
+          <h1>I'm Carmelo Chapman</h1>
+          <p class="hero-subtitle">
+            Computing student at East Tennessee State University and intern at BlueCross BlueShield of Tennessee.
+          </p>
+          <p class="hero-body">
+            This portfolio showcases my journey through the BlueSky Tennessee Institute —
+            combining an accelerated Computing degree with three IT rotations at BlueCross.
+            Here you’ll find my professional vision, goals, course artifacts, and internship work.
+          </p>
+          <div class="hero-buttons">
+            <a href="reflection.html" class="btn btn-primary">Watch / Read Reflection</a>
+            <a href="portfolio.html" class="btn btn-outline">View Projects &amp; Artifacts</a>
+          </div>
+        </div>
+        <div class="hero-image reveal">
+          <img src="assets/carmelo-chapman-headshot.png" alt="Photo of Carmelo Chapman" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container about-quick reveal">
+        <div>
+          <h2 class="section-title">Introduction</h2>
+          <p>
+            I am part of the 27-month BlueSky Tennessee Institute program, where I complete a
+            Bachelor of Science in Computing from ETSU while working year-round inside
+            BlueCross BlueShield of Tennessee. Through rotations in Cloud Operations &amp; Containers,
+            Data Management, and Membership &amp; Enrollment, I’ve been able to see how technology
+            supports healthcare at scale.
+          </p>
+          <p>
+            I’m especially interested in how software engineering, data, and security intersect.
+            Outside of class and work, I enjoy building baseball-themed projects, learning more about
+            cybersecurity tools, and experimenting with game development in Unity.
+          </p>
+        </div>
+        <ul class="chips">
+          <li>Software Engineering</li>
+          <li>Data &amp; Databases</li>
+          <li>Cloud &amp; Automation</li>
+          <li>Cybersecurity</li>
+          <li>Game Development</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container reveal">
+        <h2 class="section-title">Portfolio Overview</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Video Reflection</h3>
+            <p class="card-subtitle">Looking back on the BlueSky journey</p>
+            <p>
+              A short reflection on what I’ve learned so far — from starting with no experience
+              to building real projects and contributing in my rotations.
+            </p>
+            <a href="reflection.html" class="card-link">Go to Reflection →</a>
+          </article>
+
+          <article class="card">
+            <h3>Professional Artifacts</h3>
+            <p class="card-subtitle">Course and personal projects</p>
+            <p>
+              Work from previous courses and personal learning, including a Unity game prototype
+              and a fantasy baseball Discord bot that combines sports and technology.
+            </p>
+            <div class="badge-row">
+              <span class="badge badge-html">HTML</span>
+              <span class="badge badge-css">CSS</span>
+              <span class="badge badge-js">JavaScript</span>
+            </div>
+            <a href="portfolio.html#artifacts" class="card-link">View Artifacts →</a>
+          </article>
+
+          <article class="card">
+            <h3>Internship Rotations</h3>
+            <p class="card-subtitle">Cloud, Data, and Enrollment</p>
+            <p>
+              Summaries and final products from each of my three rotations at BlueCross,
+              highlighting how I grew in communication, confidence, and technical awareness.
+            </p>
+            <a href="portfolio.html#internships" class="card-link">Explore Rotations →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Carmelo Chapman. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="theme.js"></script>
+</body>
+</html>
+

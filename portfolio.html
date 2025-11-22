@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio • Carmelo Chapman</title>
+  <link rel="icon" href="assets/icons8-star-96.png" />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body data-theme="dark" class="page-portfolio">
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Carmelo Chapman</div>
+      <nav class="nav-main">
+        <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="reflection.html">Reflection</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="goals.html">Goals</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+      <button id="theme-toggle" class="theme-toggle" type="button">Light mode</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container reveal">
+        <h1>Portfolio</h1>
+        <p>
+          This portfolio includes professional artifacts from coursework and personal projects,
+          as well as final products and reflections from my internship rotations.
+        </p>
+      </div>
+    </section>
+
+    <section id="artifacts" class="section">
+      <div class="container reveal">
+        <h2 class="section-title">Professional Artifacts</h2>
+        <div class="card-grid">
+          <article class="card project-card">
+            <img src="assets/frontier-mayhem-cover.png" alt="Frontier Mayhem cover art" class="card-thumb" />
+            <h3>Frontier Mayhem (Unity Game)</h3>
+            <p class="card-subtitle">Course / personal project</p>
+            <p>
+              A side-scrolling action game prototype inspired by beat-’em-up and dark fantasy titles.
+              Focused on character classes, combat feel, and level flow.
+            </p>
+            <div class="badge-row">
+              <span class="badge badge-unity">Unity</span>
+              <span class="badge badge-csharp">C#</span>
+              <span class="badge badge-game">Game Dev</span>
+            </div>
+            <a href="artifacts/frontier-mayhem.html" class="card-link">View Artifact →</a>
+          </article>
+
+          <article class="card project-card">
+            <img src="assets/mlb-logo.png" alt="Baseball logo" class="card-thumb" />
+            <h3>Fantasy Baseball Discord Bot</h3>
+            <p class="card-subtitle">Personal project</p>
+            <p>
+              A Discord bot designed to help with fantasy baseball, surfacing stats and information
+              directly in chat for quick decision-making.
+            </p>
+            <div class="badge-row">
+              <span class="badge badge-python">Python</span>
+              <span class="badge badge-discord">Discord</span>
+              <span class="badge badge-api">APIs</span>
+            </div>
+            <a href="artifacts/fantasy-discord-bot.html" class="card-link">View Artifact →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="internships" class="section section-alt">
+      <div class="container reveal">
+        <h2 class="section-title">Internship Final Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Rotation I: Cloud Operations &amp; Containers</h3>
+            <p class="card-subtitle">Repository migration &amp; automation support</p>
+            <p>
+              Assisted with migrating repositories from GitHub to Azure DevOps and updating
+              automation references in Ansible Automation Platform.
+            </p>
+            <a href="internship/rotation-1.html" class="card-link">View Rotation I →</a>
+          </article>
+
+          <article class="card">
+            <h3>Rotation II: Data Management</h3>
+            <p class="card-subtitle">Enterprise data environment onboarding</p>
+            <p>
+              Learned how enterprise data environments are structured and maintained, including
+              DataStage workflows and AIX/kornshell environments.
+            </p>
+            <a href="internship/rotation-2.html" class="card-link">View Rotation II →</a>
+          </article>
+
+          <article class="card">
+            <h3>Rotation III: Membership &amp; Enrollment</h3>
+            <p class="card-subtitle">Open Enrollment coordination</p>
+            <p>
+              Supported OE renewals through vendor communication, file coordination, and job submissions.
+            </p>
+            <a href="internship/rotation-3.html" class="card-link">View Rotation III →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Carmelo Chapman. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="theme.js"></script>
+</body>
+</html>
+
